@@ -6,6 +6,7 @@ body {
     background-image: url("/images/bg.svg");
 } 
 
+/* Main text block responsive styling */
 @media only screen and (min-width: 1800px) {
     .main-text-container {
         top:18%;
