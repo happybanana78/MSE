@@ -6,9 +6,10 @@ body {
     background-image: url("/images/bg.svg");
 } 
 
-@media only screen and (min-width: 1800px) {
+/* Main text block responsive styling */
+@media only screen and (min-width: 1440px) {
     .main-text-container {
-        top:18%;
+        top:110px;
         left: 53%;
     }
 
@@ -21,54 +22,24 @@ body {
     }
 }
 
-@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+@media only screen and (min-width: 1280px) and (max-width: 1439px){
     .main-text-container {
-        top:15.5%;
-        left: 53%;
+        top:108px;
+        left: 54%;
     }
 
     .heading-text {
-        font-size: 18pt;
+        font-size: 15pt;
     }
 
     .heading-sub-text {
-        font-size: 16pt;
+        font-size: 13pt;
     }
 }
 
-@media only screen and (min-width: 1530px) and (max-width: 1600px) {
+@media only screen and (min-width: 1023px) and (max-width: 1279px){
     .main-text-container {
-        top:16%;
-        left: 53%;
-    }
-
-    .heading-text {
-        font-size: 18pt;
-    }
-
-    .heading-sub-text {
-        font-size: 16pt;
-    }
-}
-
-@media only screen and (min-width: 1280px) and (max-width: 1530px) {
-    .main-text-container {
-        top:21%;
-        left: 53%;
-    }
-
-    .heading-text {
-        font-size: 18pt;
-    }
-
-    .heading-sub-text {
-        font-size: 16pt;
-    }
-}
-
-@media only screen and (min-width: 1023px) and (max-width: 1280px){
-    .main-text-container {
-        top:26.5%;
+        top:86px;
         left: 54%;
     }
 
@@ -83,7 +54,7 @@ body {
 
 @media only screen and (min-width: 767px) and (max-width: 1023px){
     .main-text-container {
-        top:30%;
+        top:65px;
         left: 54%;
     }
 
