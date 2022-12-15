@@ -7,22 +7,7 @@ body {
 } 
 
 /* Main text block responsive styling */
-@media only screen and (min-width: 1800px) {
-    .main-text-container {
-        top:100px;
-        left: 53%;
-    }
-
-    .heading-text {
-        font-size: 18pt;
-    }
-
-    .heading-sub-text {
-        font-size: 16pt;
-    }
-}
-
-@media only screen and (min-width: 1440px) and (max-width: 1600px) {
+@media only screen and (min-width: 1440px) {
     .main-text-container {
         top:110px;
         left: 53%;
@@ -39,7 +24,7 @@ body {
 
 @media only screen and (min-width: 1280px) and (max-width: 1439px){
     .main-text-container {
-        top:86px;
+        top:108px;
         left: 54%;
     }
 
