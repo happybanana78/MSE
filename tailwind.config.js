@@ -6,8 +6,8 @@ module.exports = {
       colors: {
         white: "white",
         black: "black",
-        customgreen: "rgb(110, 255, 225)",
-        customgrey: "rgb(187, 181, 172)"
+        customgreen: "#00866A",
+        customgrey: "#394B56"
       }
     },
   },
